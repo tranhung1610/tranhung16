@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính Tổng Hai Số</title>
+</head>
+<body>
+    <h1>Tính Tổng Hai Số</h1>
+
+    <input type="number" id="num1" placeholder="Nhập số thứ nhất">
+    <input type="number" id="num2" placeholder="Nhập số thứ hai">
+    <button onclick="tinhtong()">Tính Tổng</button>
+
+    <p id="result"></p>
+
+    <script>
+        function tinhtong() {
+            var num1 = parseFloat(document.getElementById("num1").value);
+            var num2 = parseFloat(document.getElementById("num2").value);
+            var tong = num1 + num2;
+            document.getElementById("result").innerHTML = "Tổng là: " + tong;
+        }
+    </script>
+</body>
+</html>
+
+

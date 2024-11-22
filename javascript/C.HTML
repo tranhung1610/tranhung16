@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>tinh tong hai so</h1>
+    <input type="number" id="num1" placeholder="nhap so thu nhat">
+    <input type="number" id="num2" placeholder="nhap so thu hai">
+    <button onclick="tinhTong()">tinh tong</button>
+    <p id="result"></p>
+    <script>
+        function tinhTong(){
+            var num1=parseFloat(document.getElementById("num1").value);
+            var num2=parseFloat(document.getElementById("num2").value);
+            var tong=num1+num2;
+            document.getElementById("result").innerHTML="tong la: " + tong;
+        }
+    </script>
+</body>
+</html>

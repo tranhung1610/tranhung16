@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change and Reverse Text</title>
+</head>
+<body>
+    <h1 id="text">Chào mừng đến với trang web của tôi!</h1>
+
+    <button type="button" onclick="toggleText()">Thay đổi văn bản</button>
+
+    <script>
+        function toggleText() {
+            var textElement = document.getElementById("text");
+            
+            if (textElement.innerHTML == "Chào mừng đến với trang web của tôi!") {
+                textElement.innerHTML = "Văn bản đã được thay đổi!";
+            } else {
+                textElement.innerHTML = "Chào mừng đến với trang web của tôi!";
+            }
+        }
+    </script>
+</body>
+</html>
