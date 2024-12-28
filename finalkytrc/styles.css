@@ -1,0 +1,45 @@
+body {
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head, .topmenu, .stform, footer {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    float: left;
+    padding: 25px;
+}
+
+li a:hover {
+    background-color: aqua;
+}
+
+li a:active {
+    background-color: hotpink;
+}
+
+.stform {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}

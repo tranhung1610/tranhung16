@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Exam</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="head">
+        <div style="float: left;">
+            <img src="pic/logovnuis.png" alt="" width="200px" style="margin-left: 70px;">
+        </div>
+        <div style="float: left;width: 700px;">&nbsp;</div>
+        <div>
+            <div style="float: left;" class="menu-item">VNU</div>
+            <div style="float: left; margin-left: 20px;" class="menu-item">E-GOV</div>
+            <div style="float: left; margin-left: 20px;" class="menu-item">LMS</div>
+            <div style="float: left; margin-left: 20px;" class="menu-item">Digital resources</div>
+            <div style="float: left; margin-left: 20px;" class="menu-item">Contact</div>
+            <div>
+                <img src="pic/flag.png" alt="" width="32px" style="padding-left: 30px;">
+            </div>
+        </div>
+        <div>
+            <img src="pic/slide1.png" alt="" width="100%" id="slide">
+        </div>
+    </div>
+    <br><br>
+    <div class="topmenu">
+        <ul style="margin-left: 90px;margin-right: 50px;">
+            <li><a href="html.com" target="_blank">GENERAL INTRODUCTION</a></li>
+            <li><a href="html.com" target="_blank">ACADEMIC PROGRAMS</a></li>
+            <li><a href="html.com" target="_blank">RESEARCH</a></li>
+            <li><a href="html.com" target="_blank">PARTNERSHIP DEVELOPMENT</a></li>
+            <li><a href="html.com" target="_blank">CAMPUS LIFE</a></li>
+            <li><a href="html.com" target="_blank">ADMISSION</a></li>
+        </ul>
+    </div>
+    <div class="stform">
+        <h2>Student Information Form</h2>
+        <p>Fill in this form to register</p>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" placeholder="Enter your first name">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" placeholder="Enter your last name">
+        <label for="phonenum">Phone</label>
+        <select id="cboPhone">
+            <option selected>+84</option>
+            <option>85</option>
+            <option>86</option>
+        </select>
+        <input type="text" id="phonenum" placeholder="Enter your phone number">
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter your username">
+        <label for="pass1">Password</label>
+        <input type="password" id="pass1">
+        <label for="pass2">Re-type Password</label>
+        <input type="password" id="pass2">
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="rdoMale">Male
+        <input type="radio" name="gender" id="rdoFemale">Female
+        <input type="radio" name="gender" id="rdoOther">Other
+        <label for="photo">Photo</label>
+        <input type="file" id="phto">
+        <button onclick="RegisClick()">Register</button>
+    </div>
+    <footer>Copy right and ....</footer>
+    <script src="script.js"></script>
+</body>
+</html>
