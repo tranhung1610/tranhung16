@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+        button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Grade Calculator</h1>
+    <form id="gradeForm">
+        <label for="subject1">Subject 1:</label>
+        <input type="text" id="subject1" name="subject1" placeholder="Enter subject name" required>
+        <input type="number" id="score1" name="score1" placeholder="Enter score" required min="0" max="100">
+
+        <label for="subject2">Subject 2:</label>
+        <input type="text" id="subject2" name="subject2" placeholder="Enter subject name" required>
+        <input type="number" id="score2" name="score2" placeholder="Enter score" required min="0" max="100">
+
+        <label for="subject3">Subject 3:</label>
+        <input type="text" id="subject3" name="subject3" placeholder="Enter subject name" required>
+        <input type="number" id="score3" name="score3" placeholder="Enter score" required min="0" max="100">
+
+        <label for="subject4">Subject 4:</label>
+        <input type="text" id="subject4" name="subject4" placeholder="Enter subject name" required>
+        <input type="number" id="score4" name="score4" placeholder="Enter score" required min="0" max="100">
+
+        <button type="button" onclick="calculateAverage()">Calculate Average</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="1.js">
+       
+    </script>
+</body>
+</html>
